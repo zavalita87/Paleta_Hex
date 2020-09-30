@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', sans-serif;
+    background-color:#B3FFAB;
+}
+
+h1{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 2em;
+    font-family:'Roboto', sans-serif;
+
+
+}
+
+.visualizar{
+    text-transform: uppercase;
+    text-align: center;
+    font-size:35px;
+    width: 6em;
+    height: 6em;
+    border: 2px solid #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#12FFF7;
+}
+
+#color{
+    position:absolute;
+    top:70%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    border-radius: 60px;
+    background-color:#12FFF7;
+    outline-style:none;
+
+}
